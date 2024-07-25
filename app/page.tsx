@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <h1>
       Home
-      <Button>Корзина</Button>
+      <Button variant="outline">Корзина</Button>
     </h1>
   );
 }
