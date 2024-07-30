@@ -10,7 +10,7 @@ export default function Home() {
     <TopBar />
 
     <Container className="mt-10 pb-14">
-      <div className="flex gap-[60px]">
+      <div className="flex gap-[80px]">
 
         {/* Фильтрация */}
         <div className="w-[250px]">
@@ -21,6 +21,64 @@ export default function Home() {
         <div className="flex-1">
           <div className="flex flex-col gap-16">
             <ProductsGroupList title="Пиццы" items={[
+              {
+                id: 1,
+                name: 'Чисбургер пицца',
+                imageUrl: 'https://media.dodostatic.net/image/r:292x292/11EE7D611ADF5AAD898B8B651186E023.avif',
+                price: 550,
+                items: [{ price: 550 }],
+              },
+              {
+                id: 1,
+                name: 'Чисбургер пицца',
+                imageUrl: 'https://media.dodostatic.net/image/r:292x292/11EE7D611ADF5AAD898B8B651186E023.avif',
+                price: 550,
+                items: [{ price: 550 }],
+              },
+              {
+                id: 1,
+                name: 'Чисбургер пицца',
+                imageUrl: 'https://media.dodostatic.net/image/r:292x292/11EE7D611ADF5AAD898B8B651186E023.avif',
+                price: 550,
+                items: [{ price: 550 }],
+              },
+              {
+                id: 1,
+                name: 'Чисбургер пицца',
+                imageUrl: 'https://media.dodostatic.net/image/r:292x292/11EE7D611ADF5AAD898B8B651186E023.avif',
+                price: 550,
+                items: [{ price: 550 }],
+              },
+              {
+                id: 1,
+                name: 'Чисбургер пицца',
+                imageUrl: 'https://media.dodostatic.net/image/r:292x292/11EE7D611ADF5AAD898B8B651186E023.avif',
+                price: 550,
+                items: [{ price: 550 }],
+              },
+              {
+                id: 1,
+                name: 'Чисбургер пицца',
+                imageUrl: 'https://media.dodostatic.net/image/r:292x292/11EE7D611ADF5AAD898B8B651186E023.avif',
+                price: 550,
+                items: [{ price: 550 }],
+              },
+              {
+                id: 1,
+                name: 'Чисбургер пицца',
+                imageUrl: 'https://media.dodostatic.net/image/r:292x292/11EE7D611ADF5AAD898B8B651186E023.avif',
+                price: 550,
+                items: [{ price: 550 }],
+              },
+              {
+                id: 1,
+                name: 'Чисбургер пицца',
+                imageUrl: 'https://media.dodostatic.net/image/r:292x292/11EE7D611ADF5AAD898B8B651186E023.avif',
+                price: 550,
+                items: [{ price: 550 }],
+              },
+            ]} categoryId={1} />
+            <ProductsGroupList title="Завтрак" items={[
               {
                 id: 1,
                 name: 'Чисбургер пицца',
